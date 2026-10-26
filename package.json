@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "concurrently": "^10.0.6",
+    "typescript": "^7.0.2"
+  },
+  "name": "assginment-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "start:dev": "concurrently \"tsc --watch\" \"node --watch dist/main.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
